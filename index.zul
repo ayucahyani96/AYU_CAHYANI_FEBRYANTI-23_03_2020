@@ -1,0 +1,21 @@
+<window id="winHome" border="normal" width="320px" title="List of Pictures" apply="Controller.controller">
+    <hbox>
+        <vbox>
+            <image id="image1" src="/image/img1.jpg" width="150px" height="250px">
+            </image>
+            <image id="image3" src="/image/img3.jpg" width="150px" height="250px"/>
+        </vbox>
+        <vbox>
+            <image id="image2" src="/image/img2.jpg" width="150px" height="250px"/>
+            <image id="image4" src="/image/img4.jpg" width="150px" height="250px"/>
+        </vbox>
+    </hbox>
+    
+    <toolbar mold="panel" width="300px" align="center">
+        <hbox align="center"> 
+            <toolbarbutton  iconSclass="z-icon-fw z-icon-chevron-left"/>
+            <toolbarbutton iconSclass="z-icon-fw z-icon-circle" />
+            <toolbarbutton iconSclass="z-icon-fw z-icon-square" />
+        </hbox>
+    </toolbar>
+</window>
